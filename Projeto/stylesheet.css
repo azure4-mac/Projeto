@@ -1,0 +1,63 @@
+/* Estilo global do corpo da página */
+body {
+    font-family: arial, sans-serif; /* Define a família de fontes padrão para o corpo da página */
+    margin: 0; /* Remove as margens externas da página */
+    padding: 0; /* Remove o preenchimento padrão da página */
+    background-color: white; /* Cor da pag */
+}
+
+
+/* Estilo global da página HTML com rolagem suave */
+html {
+    scroll-behavior: smooth; /* Adiciona rolagem suave em toda a página */
+}
+
+/* Estilo do cabeçalho com fundo azul */
+header {
+    background-color: #006699; /* Define a cor de fundo do cabeçalho */
+    color: white; /* Define a cor do texto no cabeçalho */
+    text-align: center; /* Centralize o texto no cabeçalho */
+    padding: 1rem; /* Adicione espaçamento interno para o conteúdo do cabeçalho */
+}
+
+/* Estilo da barra de navegação (nav) *//* Estilo da barra de navegação (nav) */
+nav {
+    background-color: #0077B6; /* Define a cor de fundo da barra de navegação */
+    padding: 1rem; /* Adicione espaçamento interno para o conteúdo da barra de navegação */
+    text-align: center; /* Centralize o texto na barra de navegação */
+}
+
+/* Estilo dos itens da lista (li) na barra de navegação */
+nav ul li {
+    display: inline; /* Exibe os itens horizontalmente */
+    margin-right: 1rem; /* Adicione margem à direita para separar os itens */
+}
+
+/* Estilo dos links (a) na barra de navegação */
+nav ul li a {
+    text-decoration: none; /* Remove sublinhado dos links */
+    background-color: #006699; /* Define a cor de fundo dos botões */
+    color: white; /* Define a cor do texto nos botões */
+    padding: 0.5rem 1rem; /* Adicione espaço interno para os botões */
+    border-radius: 5px; /* Adicione cantos arredondados aos botões */
+    transition: background-color 0.3s; /* Adicione uma transição de cor de fundo suave */
+}
+
+/* Estilo dos links (a) quando hover (passa o mouse por cima) na barra de navegação */
+nav ul li a:hover {
+    background-color: #005588; /* Define a cor de fundo dos botões ao passar o mouse por cima */
+}
+
+
+/* Estilo do conteúdo principal da página */
+main {
+    padding: 2rem; /* Adicione espaçamento interno para o conteúdo principal */
+}
+
+/* Estilo do rodapé da página */
+footer {
+    background-color: #006699; /* Define a cor de fundo do rodapé */
+    color: black; /* Define a cor do texto no rodapé */
+    text-align: center; /* Centralize o texto no rodapé */
+    padding: 1rem; /* Adicione espaçamento interno para o conteúdo do rodapé */
+}
