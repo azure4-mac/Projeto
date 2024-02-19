@@ -1,0 +1,78 @@
+.image-and-video {
+    display: flex; /* Use o flexbox para criar um layout de duas colunas */
+    align-items: center; /* Centralize verticalmente o conteúdo */
+}
+
+.img {
+    flex: 1; /* Faça com que a imagem ocupe metade da largura disponível */
+    height: "358px";
+    width:  "359px";
+}
+
+.image-and-text {
+    display: flex; /* Usando flexbox para colocar a imagem e o texto lado a lado */
+    align-items: center; /* Alinhar verticalmente ao centro */
+}
+
+/* Estilo global do corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+/* Estilo global da página HTML com rolagem suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilo do cabeçalho com fundo azul */
+header {
+        background-color: #333;
+        color: #333;
+        text-align: center;
+        padding: 1rem;
+}
+
+/* Estilo da barra de navegação (nav) *//* Estilo da barra de navegação (nav) */
+nav {
+    background-color: #99A3A4;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilo dos itens da lista (li) na barra de navegação */
+nav ul li {
+    display: inline; 
+    margin-right: 1rem; 
+}
+
+/* Estilo dos links (a) na barra de navegação */
+nav ul li a {
+    text-decoration: none;
+    background-color: #566573;
+    color: white; 
+    padding: 0.5rem 1rem; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+}
+
+/* Estilo dos links (a) quando hover (passa o mouse por cima) na barra de navegação */
+nav ul li a:hover {
+    background-color: #005588;
+}
+
+
+/* Estilo do conteúdo principal da página */
+main {
+    padding: 2rem; 
+}
+
+/* Estilo do rodapé da página */
+footer {
+    background-color: #006699;
+    color: black;
+    text-align: center; 
+    padding: 1rem;
+}
